@@ -1,0 +1,9 @@
+
+
+issabarry.fr, www.issabarry.fr {
+    tls issabarry67@gmail.com
+
+    encode gzip
+
+    reverse_proxy  issabarry.fr:8070 
+}
