@@ -1,9 +1,7 @@
 
 
-issabarry.fr, www.issabarry.fr {
-    tls issabarry67@gmail.com
-
+felloconsulting.fr, www.felloconsulting.fr {
+    tls contact@felloconsulting.fr
     encode gzip
-
-    reverse_proxy  issabarry.fr:8070 
+    reverse_proxy  felloconsulting.fr:8070 
 }
